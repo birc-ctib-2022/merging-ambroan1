@@ -30,7 +30,7 @@ def merge(x: list[int], y: list[int]) -> list[int]:
             j += 1
 
     if i >= len(x):
-        z = z + y[j:]
+        z.extend(y[j:])
     elif j >= len(y):
-        z = z + x[i:]
+        z.extend(x[i:])
     return z
