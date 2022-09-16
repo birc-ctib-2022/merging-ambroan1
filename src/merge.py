@@ -25,6 +25,6 @@ def merge(x: list[int], y: list[int]) -> list[int]:
             z.append(y[j])
             j += 1
 
-   z.extend(y[j:])
-   z.extend(x[i:])
+    z.extend(y[j:])
+    z.extend(x[i:])
     return z
